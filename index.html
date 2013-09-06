@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Alfa512 : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Alfa512</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Alfa512/Alfa512">View on GitHub</a>
+
+          <h1 id="project_title">Alfa512</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Alfa512/Alfa512/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Alfa512/Alfa512/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "<a href="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E">http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</a>
+
+</p>
+
+            @charset "utf-8";
+    /* CSS Document */
+    *{
+        margin:0px;
+        padding:0px;
+        text-align:left;
+    }
+     
+    html{ height:100%; }
+    img{ border:none; }
+    table{ border-collapse:collapse; }
+    td{
+        vertical-align:top;
+        padding:0px;
+    }
+    a{ outline:none; }
+    .header{
+        margin:1px auto;
+        background: url(images/MainBackground.png) no-repeat;
+        /**/
+        min-height: 708px; max-height:2124px;
+        min-width:  1264px; max-width:3792px;
+        height:708px;
+        width:1264px;
+    }
+    
+    .menu{
+        background: url(images/AboutUsBG.png) no-repeat;
+        min-height:100px; max-height:300px;
+        min-width:1040px; max-width:3120px;
+        margin-left:170px;
+        padding-left:40px;
+        position:absolute;
+        padding-left:220px;
+    }
+    .menu ul{
+        display:table-row;
+    }
+    .menu ul li{
+        display: table-cell; width: auto; height:113px; vertical-align: bottom;
+    }
+    .menu ul li a{
+        color:#000; font:28px Vegur; height: 113px;  display: table-cell; width: 185px;
+        vertical-align:middle;
+        text-decoration:none;
+    }
+    
+    .menu ul li a:hover{
+        text-decoration:none;
+        color:#000;
+    }
+    .menu ul au li a:hover{
+        text-decoration:none;
+        color:#FFF;
+    }
+    .au{
+        position: relative;
+        float:left;
+        color:#FFF;
+        left:210px;
+        top:0px;
+        display: table-cell; width: auto; height:113px; vertical-align: bottom;
+        z-index:100;
+    }
+    .au a{
+        color:#FFF; font:28px Vegur; height: 113px;  display: table-cell; width: 185px;
+        vertical-align:middle;
+        text-decoration:none;
+    }
+    
+    .au a:hover{
+        color:#FFF;
+    }
+    
+    .bmi{
+        min-height:100px; max-height:113px;
+        min-width:940px; max-width:2820px;
+        margin-left:210px;
+        }
+    .spasalon {
+        min-height:90px; max-height:270px;
+        min-width:274px; max-width:822px;
+        margin-left: 200px;
+        margin-top:140px;
+        position:absolute;
+    }
+    
+    .ss1 {
+        float:left;
+        font: 90px Montez; color:#09C; 
+    }
+    .ss2 {
+        font: 90px Montez; color:#000;
+        float:left;
+    }
+    /*Center Part*/
+    .CenterPart{
+        margin:0 auto;
+        min-height: 635px; max-height:1905px;
+        min-width: 1264px; max-width:3792px;
+        height:635px;
+        width:1264px;
+        position: relative;
+    }
+    /*Content 1*/
+    .LastestNews{
+        min-height:240px; max-height:840px;
+        min-width:225px; max-width:675px;
+        height:240px;
+        width:225px;
+        position: relative; left:150px; top:-70px;
+    }
+    .lnPos{
+        position:absolute;
+        height:inherit;
+        width:inherit;
+    }
+    .LN{
+        font: 35px Vegur;
+        font-weight:lighter;
+    }
+    .lnt{
+        float:left; height:33%; margin:20px auto;
+        font:14px Arial;
+    }
+    .lntdate{
+        color:#0CF;
+        font:14px Vegur;
+    }
+    .lntdate a{
+        color:#0CF;
+    }
+    /*Content 1*/
+    
+    /* Content 2*/
+    .mpProc{
+        min-height:315px; max-height:945px;
+        min-width:420px; max-width:1260px;
+        height:315px;
+        width:420px;
+        position: relative;
+    }
+    .mpPos{
+        position: absolute; left:450px; top:-320px;
+        height:inherit;
+        width:inherit;
+        min-height:inherit; max-height:inherit;
+        min-width:inherit; max-width:inherit;
+    }
+    .MPC{
+        font: 42px Vegur;
+        font-weight:lighter;
+    }
+    
+    .img21{
+        background-image:url(images/CN22.png);
+        min-height:105px; max-height:315px;
+        min-width:160px; max-width:480px;
+        height:105px;
+        width:160px;
+        float:left;
+        border:1px solid #CCC;
+        margin-right:10px;
+        padding:5px;
+    }
+    
+    .img22{
+        background: url(images/CN21.png) no-repeat;
+        min-height:105px; max-height:315px;
+        min-width:160px; max-width:480px;
+        height:105px;
+        width:160px;
+        float:left;
+        border:1px solid #CCC;
+        margin-right:10px;
+    }
+    
+    .mpcText{
+        float:left; height:50%; margin:20px auto;
+        font:14px Arial;
+    }
+    .mpcRef{
+        color:#0CF;
+        font:28px Vegur;
+        font-weight:lighter;
+    }
+    .mpcRef a{
+        color:#0CF;
+        text-decoration:none;
+    }
+    /* Content 2*/
+    
+    /* Content 3*/
+    .OurServices{
+        min-height:100px; max-height:732px;
+        min-width:100px; max-width:663px;
+        height:244px;
+        width:221px;
+        position: relative;
+    }
+    .osPos{
+        position:absolute; left:900px; top:-630px;
+        height:inherit;
+        width:inherit;
+    }
+    .OS{
+        font: 35px Vegur;
+        font-weight:lighter;
+    }
+    .osText{
+        height:33%; margin:20px auto;
+        font:14px Arial;
+    }
+    .osRef{
+        color:#000;
+        font: bold 14px Arial;
+        margin-left:80px;
+    }
+    .osRef a{
+        color:#000;
+    }
+    .img31{
+        background: url(images/1.png) no-repeat;
+        min-height:63px; max-height:189px;
+        min-width:60px; max-width:180px;
+        height:63px;
+        width:60px;
+        float:left;
+        margin-right:20px;
+        margin-top:-10px;
+    }
+    .img32{
+        background: url(images/2.png) no-repeat;
+        min-height:63px; max-height:189px;
+        min-width:60px; max-width:180px;
+        height:63px;
+        width:60px;
+        float:left;
+        margin-right:20px;
+        margin-top:-10px;
+        
+    }
+    .img33{
+        background: url(images/3.png) no-repeat;
+        min-height:63px; max-height:189px;
+        min-width:60px; max-width:180px;
+        height:63px;
+        width:60px;
+        float:left;
+        margin-right:20px;
+        margin-top:-10px;
+    }
+    .clear{
+        clear:left;
+    }
+    /* Content 3*/
+    
+    /* Content 4*/
+    .cont4{
+        height:274px;
+        width:1264px;
+        min-height: 274px; max-height:822px;
+        min-width: 1264px; max-width:3792px;
+        position:relative; top:-400px;
+        padding-top:40px;
+        background:#efefef;
+    }
+    
+    .title4{
+        font:35px Vegur;
+        margin-bottom:20px;
+        font-weight:lighter;
+    }
+    .Reference{
+        color:#0dc2ce;
+        text-decoration:none;
+    }
+    
+    .scinCare{
+        height:184px;
+        width:283px;
+        min-height: 184px; max-height:552px;
+        min-width: 283px; max-width:849px;
+        position:absolute; left:163px;
+        font:14px Arial;
+    }
+    
+    .massage{
+        height:184px;
+        width:283px;
+        min-height: 184px; max-height:552px;
+        min-width: 291px; max-width:873px;
+        position:absolute; left:487px;
+        font:14px Arial;
+    }
+    
+    .spaRest{
+        height:184px;
+        width:283px;
+        min-height: 184px; max-height:552px;
+        min-width: 290px; max-width:870px;
+        position:absolute; right:162px;
+        font:14px Arial;
+    }
+    
+    .rmImg{
+        height:33px;
+        width:120px;
+        min-height: 33px; max-height:99px;
+        min-width: 120px; max-width:360px;
+        background:url(images/READMORE.png) no-repeat;
+        position:absolute;
+        margin:0 auto;
+        margin-top:20px;
+    }
+    .rmImg a{
+        height:33px; width:120px;
+        height: 33px;  display: table-cell; width: 120px;
+        vertical-align:middle;
+    }
+    /* Content 4*/
+    
+    /*Center Part*/
+    
+    /*Footer*/
+    .footer{
+        background: url(images/BottomBackground.png) no-repeat;
+        min-height: 160px; max-height:480px;
+        min-width: 1264px; max-width:3792px;
+        height:160px;
+        width:1264px;
+        margin:auto;
+        position: relative; top:80px;
+    }
+    .leftText{
+        position: absolute; left:0px;
+        margin-top:50px;
+        min-height:81px; max-height:243px;
+        min-width:373px; max-width:1119px;
+        height:81px;
+        width:373px;
+        float:left;
+        color:#FFF;
+        font:22px Vegur;
+        font-weight:lighter;
+        margin-left:163px;
+    }
+    .rightText{
+        margin-top:50px;
+        position: absolute; left:800px;
+        min-height:81px; max-height:243px;
+        min-width:373px; max-width:1119px;
+        height:81px;
+        width:373px;
+        color:#FFF;
+        font:41px Vegur;
+        font-weight:lighter;
+    }
+    .ReferenceBotR{
+        color:#0dc2ce;
+        text-decoration:none;
+        font:35px Vegur;
+        font-weight:lighter;
+    }
+    .numCode{
+        color:#808080;
+    }
+    .socNetImg{
+        background:url(images/SocialNetworking.png) no-repeat;
+        background-position: left;
+        
+        min-height:18px; max-height:54px;
+        min-width:93px; max-width:297px;
+        height:18px;
+        width:93px;
+    }
+    .socNetImg ul{
+        display:table-row;
+    }
+    .socNetImg ul li{
+        display: table-cell; width: auto; height:18px; vertical-align: bottom;
+    }
+    .socNetImg ul li a{
+        height: 18px;  display: table-cell; width: 93px;
+        vertical-align:middle;
+    }
+    .w3{
+        position:absolute;
+        left:1180px; top:125px;
+    }
+    /*Footer*/
+    <p></p>Spa Salon<p></p>
+
+<p></p>
+
+
+
+<div>
+
+<div>
+    <a href="http://vk.com/Alfa512">About us</a>
+</div>
+
+<div>
+    <ul>
+<li><a href="#">Services</a></li>
+       <li><a href="#">Therapies</a></li>
+       <li><a href="#">Our Staff</a></li>
+       <li><a href="http://vk.com/Alfa512">Contacts</a></li>
+        
+    </ul>
+</div>
+
+
+
+
+
+<div>
+        <div>
+        Spa
+        </div>
+        <div>
+        Salon
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div>
+
+
+<div>
+<div>
+    <div>
+    Lastest News
+    </div>
+    <div>
+        <div>
+            <a href="#">22.08.2011</a>
+        </div>
+    Consectetur adipisicing elit sed do eiusmod. tempor incididunt.
+    </div>
+    <div>
+        <div>
+            <a href="#">17.08.2011 </a>
+        </div>
+    Laboret dolore magna aliqua enim ad minim veniam.
+    </div>
+    <div>
+        <div>
+            <a href="#">09.08.2011</a>
+        </div>
+    Nostrud exercn ullamco laboris nisi ut aliquip ex ea commodo.
+    </div>
+</div>
+
+<p></p>
+</div>
+
+
+
+
+
+<div>
+<div>
+    <div>
+    Most Pop
+    ular Procedure
+    </div>
+    <div>
+    <div>
+    
+        <div>
+        </div>
+    </div>
+        <div>
+            <a href="#">Massage Therapy</a>
+        </div>
+    Consectetur adipcing elsed eiusmod tempor incidint utabore dolore magna aliquat enim ad minim.
+    </div>
+    
+    <div>
+    <div>
+    </div> 
+        <div>
+            <a href="#">Spa Aromatherapy</a>
+        </div>
+    Consectetur adipcing elsed eiusmod tempor incidint utabore dolore magna aliquat enim ad minim.
+    </div>  
+</div>
+
+<p></p>
+</div>
+
+
+
+
+
+<div>
+<div>
+    <div>
+    Our Services
+    </div>
+    <div>
+        <div>
+            <a href="#">Lorem ipsumolor</a>
+        </div>
+        <div>
+        </div>
+    Consectetur adipisicing elit sed do.
+    </div>
+    <div>
+        <div>
+            <a href="#">Tempor incididunt</a>
+        </div>
+        <div>
+        </div>
+    Laboret dolore magna aliqua enim.
+    </div>
+    <div>
+        <div>
+            <a href="#">Minim veniam quis</a>
+        </div>
+        <div>
+        </div>
+    Nostud exercn ullmco laboris nisit aliquip.
+    </div>
+</div>
+
+<div></div>
+
+<p></p>
+</div>
+
+
+
+
+
+<div>
+    <div>
+        <div>
+        Skin Care
+        </div>
+        <b>Spa Salon</b> is one of <a href="#"> free website templates</a> created by TemplateMonster.com team, 
+        optimized for 1024X768 screen resolution. It is also XHTML &amp;amp CSS valid.
+        <div><a href="#"></a></div>
+    </div>
+    <div>
+        <div>
+        Massage
+        </div>        
+        This <a href="#">Spa Salon Template</a> goes with two packages – with PSD source files 
+        (are available for free for the registered members of Templates.com) and without them.
+        <div><a href="#"></a></div>        
+    </div>
+    <div>
+        <div>
+        Spa Rest
+        </div>
+        This website template has several pages:
+        <a href="http://vk.com/Alfa512">About Us</a>, <a href="#">Our Services</a>, <a href="#">Therapies</a>, <a href="#">Our Staff</a>,
+        <a href="http://vk.com/Alfa512">Contact Us</a> (please note that contact us form doesn’t work).
+    <div><a href="#"></a></div>
+    </div>
+</div>
+
+
+
+<p></p>
+</div>
+
+
+
+
+
+<div>
+    <div>
+            <a href="#">Spa Salon</a> Copyright 2011
+            Website Template by <a href="http://TemplateMonster.com">TemplateMonster.com</a>
+            <div>
+            <ul>
+<li><a href="https://www.facebook.com/Alfa512ks"></a></li>
+                <li><a href="https://twitter.com/Alfa512ks"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+</div>
+    </div>
+    <div>
+            <a href="#">Toll Free:</a>
+            <br><a>8(800)</a>154-45-67
+    </div>
+    <div>
+        <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Правильный CSS!"></a>
+        </p>
+    </div>
+</div>
+
+
+
+<p>
+</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Alfa512 maintained by <a href="https://github.com/Alfa512">Alfa512</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
